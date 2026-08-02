@@ -1,0 +1,55 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Sharing {
+  id                  Int       @id @default(autoincrement())
+  displayName         String    @default("Anonymous")
+  country             String?
+  q1Solutions         String?
+  q2MultipleWaitlists Boolean?
+  q3Challenges        String?
+  q4OneChange         String?
+  q5Insights          String?
+  source              String    @default("web")
+  hidden              Boolean   @default(false)
+  createdAt           DateTime  @default(now())
+  comments            Comment[]
+}
+
+model Comment {
+  id          Int      @id @default(autoincrement())
+  sharingId   Int
+  sharing     Sharing  @relation(fields: [sharingId], references: [id], onDelete: Cascade)
+  displayName String   @default("Anonymous")
+  body        String
+  hidden      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+}
+
+model Discussion {
+  id           Int               @id @default(autoincrement())
+  title        String
+  body         String
+  displayName  String            @default("Anonymous")
+  contactEmail String?
+  hidden       Boolean           @default(false)
+  createdAt    DateTime          @default(now())
+  replies      DiscussionReply[]
+}
+
+model DiscussionReply {
+  id           Int        @id @default(autoincrement())
+  discussionId Int
+  discussion   Discussion @relation(fields: [discussionId], references: [id], onDelete: Cascade)
+  body         String
+  displayName  String     @default("Anonymous")
+  contactEmail String?
+  hidden       Boolean    @default(false)
+  createdAt    DateTime   @default(now())
+}

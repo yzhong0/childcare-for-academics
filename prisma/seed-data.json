@@ -1,0 +1,497 @@
+[
+  {
+    "displayName": "Survey respondent #1",
+    "q1Solutions": "Nanny , school",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Wait",
+    "q4OneChange": "Uni support",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #2",
+    "q1Solutions": "childcare center, nanny, family support - its terrible in the USA, bad in France, and very good in Singapore (housekeepers make it easy)",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "all of the above challenges apply in the USA.  We took a detour on the way to work to drop off children at a good daycare, then pick them up on the way back (another detour). Quality was good, but the price was like a college education.",
+    "q4OneChange": "all of the above, but there are no miracles.",
+    "q5Insights": "Move to Singapore when the kids are young!",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #3",
+    "q1Solutions": "Adjusted work schedule.  School was very accommodating.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": null,
+    "q4OneChange": null,
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #4",
+    "q1Solutions": "We used a childcare center part time combined with adjusting our work schedule to take shifts taking care of our son.\n\nThe main issues with childcare options in our area are the cost and availability.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Affordability and waiting times.",
+    "q4OneChange": "Affordability.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #5",
+    "q1Solutions": "We used a daycare center for our two kids - this gave us about 7 hours of work time a day. My son is 19 now and my daughter 15 - so back then, there was no waiting list for us. We were very happy with the options we had.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Even with childcare, it was difficult to keep both of our careers. My wife made sacrifices, and this still bothers both of us. As immigrants, we have no other family around to help.",
+    "q4OneChange": "I think I would try to find a more communal living situation with multiple families with children. Pooling resources across multiple families that can trust each other is what I would recommend my own children to do when they have families.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #6",
+    "q1Solutions": "I used a childcare center that uses Montessori principles in balance with realities of today's world. Overall I am very satisfied with my daycare experience, but availability of childcare at the quality and budget we received was rare in our city and probably even more rare in other cities in the United States.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "All of these factors were relevant in making finding childcare difficult. From an everyday perspective, location was a primary criteria which quickly narrowed down to few affordable and quality options. Intermittent childcare has been extremely challenging without family and in a different city from where my wife and I were born. Word of mouth has been ineffective, platforms do not establish trust in the sitter, and even the good sitters have been unreliable.",
+    "q4OneChange": "I would want an \"all else equal\" increase in minimum acceptable quality; unfortunately if this came at meaningful cost then it would not be progression in my opinion.",
+    "q5Insights": "The \"good\" childcare that I have received seems to depend on a genuineness on the provider to give the child the best. In turn, there is much variability in caretakers (even within a high-quality provider) that doesn't seem easily resolved with policy. Incentives seem further counter to this altruistic trait.\n\nThat being said, better pay and increased recognition of caregivers could help prevent \"good\" caretakers from selecting \"out\" of the profession.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #7",
+    "q1Solutions": "We invited some family members to help us. Leaving in the US, I’m not happy with childcare options because they are expensive and not trustworthy. For example, I have seen how babysitters treat small kids in parks! Horrible!!",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Price and trust.\n\nAnswered above.",
+    "q4OneChange": "This really looks like an academic survey; no? ;)\n\nI don’t know what I would change.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #8",
+    "q1Solutions": "Childcare center",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Affordability and sick days",
+    "q4OneChange": "Improve affordability. Also, improve teachers pays so centers don’t lose employees too frequently",
+    "q5Insights": "Childcare coat should be tax deductible",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #9",
+    "q1Solutions": "We use family support. My parents can stay with us at our house to be able to help out with chores and cooking. We also hire high schoolers from our church as babysitters at home when our parents are not available. \n\nWe have not done daycare type where we leave our child. We find it very expensive but more important than that is the uncertainty in the quality of care.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "We did put ourselves on a waitlist but when ended up getting we had already adopted other solutions so we also concluded that its not reliable.",
+    "q4OneChange": "Maybe a community based platform for daycare kind of like airbnb- we feel more comfortable leaving our kids with other families that also have little kids then in return we would be happy to watch their kids and rotate. If there were 3 families willing to rotate as daycare, our incentives are aligned too! I take care of your child how i would like you to take care of mine. The monetary incentive-based of traditional daycare is challenging because sometimes that incentive is not high enough to ensure the same quality a fellow parent would provide to your child. Here reputation is the currency and the more reputable you are the more options you also have to leave your child with.",
+    "q5Insights": "None- thanks for doing this.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #10",
+    "q1Solutions": "Combination of nanny, preschool, and family. I have three sons, all under 7 years old. Nanny is from 7am-5pm, M-F. She gets sick at times, which causes considerable disruption to our lives. Similar disruptions occur when our kids are sick (because then the nanny doesn't come). My wife and I both work, so we rotate taking off work when the kids and/or nanny are sick. (Sickness happens often because of the ages of the kids). There were other childcare options available (child-care), but I did not use it for convenience reasons.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": null,
+    "q4OneChange": "I live far away from my university (&gt;1hr commute), so employers support would not have helped. I am deeply fortunate to be able to afford childcare options with my university salary. Regarding emergency backup care - that be wonderful, but I do not see the use case where that would have helped. The reason is that emergency backup care would be needed when the kids are sick and the nanny won't come, but that is the situation where it would feel inappropriate to have anyone in the home apart from family (since it would expose them to sickness).",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #11",
+    "q1Solutions": "We had family support during the first 8 months and then used a childcare center.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "The biggest challenges were the quality of care (due to babies not getting enough one on one attention), falling sick often, and the constant work adjustments we had to make to accommodate that.",
+    "q4OneChange": "Childcare is too expensive and too inflexible (in terms of food options, individual developmental needs etc.). The current system is very cookie cutter which deals with every child in the same way, without recognizing that every child is on a different learning and developmental pathway. As a result, I feel some kids thrive in daycare settings while some others don't.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #12",
+    "q1Solutions": "Day care\nAfter school care\nFamily support \nAdjusted work schedule \nBringing child to work\n\nNo, childcare is very expensive also sometimes limited hours.\n\nSummer was especially difficult when child was in school because we'd have to patch different Summer camps together",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Cost and hours of availability were our biggest issues. As an academic i had to be the one to leave early since my job had more flexibility but it meant I'd have to make up the time elsewhere",
+    "q4OneChange": "None of the universities i worked at had childcare, that would have been amazing \n\n4k was only available for low income or children with potential issues entering 5k. That's great that they have that option but a universal 4k program would have been great",
+    "q5Insights": "Glad you are looking into it!",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #13",
+    "q1Solutions": "Childcare center in my neighborhood. The availability is limited but we were able to find a good alternative for our kid.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Before getting the spot at the daycare, my wife and I were taking turns taking care of the kid, which limited our availability to work. Hence, most of our lives were around the kid without much time to do other activities.",
+    "q4OneChange": "One thing: access.\nBut it is true that the system here in the US is too expensive... so many families cannot afford it",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #14",
+    "q1Solutions": "Nanny. It is expensive but there are plenty of good ones. My child will start daycare soon but I will probably keep my nanny for more reliable backup care.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Affordability. To stay close to work, we have to send our child to expensive private schools. We can also move to neighborhoods with good public schools, but that would be far from work.",
+    "q4OneChange": "Affordability",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #15",
+    "q1Solutions": "Childcare center run by the university. Very satisfied!",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Waitlist uncertainty, parenting at home while teaching during COVID",
+    "q4OneChange": "Longer paid leave during the first year of the baby’s life",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #16",
+    "q1Solutions": "Nursery in the UK \nOptions that start as early as 4 months are not that common in the UK. But it seems like demand is lower as well. \nIt is quite expensive but it is very convenient (10 hours per day, no school holidays)",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Affordability",
+    "q4OneChange": "Reinstate employer subsidies. In the UK, it used to be possible to buy vouchers via salary sacrifice.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #17",
+    "q1Solutions": "Full-time nursery (it's a combined 1.5 minute round trip by car per day, but can't have it all), plus moving to where my partner's parents live (who are retired). Having to commute from Oxford to London for work is not ideal; but on balance, I have it as good as it could realistically get for an academic. We registered the child at the nursery six month before being born, which was safe for Oxford.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Having two children has certainly impacted my work output and my mental well-being quite substantially, but childcare wasn't the issue. But then, my setup is very fortunate.",
+    "q4OneChange": "It's a bit expensive and sadly not available on Saturday (or, at least, we could not afford it), but I think the UK system works okay (assuming one doesn't have to move with less than a year notice to a new place).",
+    "q5Insights": "-",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #18",
+    "q1Solutions": "We primarily used a daycare, but with two working professionals, it is hard. Kids get sick, daycares have days off and with no family to provide back up care, we had to get really creative and it was stressful",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Quality of care, lack of back up, hard to find reliable babysitters. Luckily both of us are academics and we had to rely on flexible schedules to cover gaps, but that also meant working strange hours",
+    "q4OneChange": "Emergency backup care",
+    "q5Insights": "The first three years were really hard. I wish I had been more engaged in the mommy network in my town before my kid was born. I really didn’t know where to start and how to look for help and it was very stressful. It would be great if more information and resources were available either through local communities (more formally) or employers",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #19",
+    "q1Solutions": "We used daycare/childcare center. We lived both in the Netherlands and the US. The availability of childcare options in the Netherlands was good. But it was more challenging for us to find a suitable/available childcare option in the US.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "In the Netherlands, availability and quality was good but it was expensive. In our experience in the US, both availability and affordability could be better, but the quality is still good.",
+    "q4OneChange": "All items listed above. If I need to pick one: access.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #20",
+    "q1Solutions": "Mostly full-time daycare at a center. But also some summer camps and nannies in the summer (nanny when younger, summer day camp when 4-5 years old). And now that my kid is in public elementary school, grandparents fly out for school breaks to watch him.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "The town we live in has only one childcare center. Luckily they had a spot when we needed it! We had to pay for the first half of the year while I was on leave (when we didn’t need childcare) to ensure our spot, though. Which was expensive!",
+    "q4OneChange": "Fewer random days where daycare and school are closed.",
+    "q5Insights": "We’re lucky that we live somewhere with decent access to good quality and affordable childcare. We are also very lucky that my parents can fly out to help when needed—I don’t know what we would do without that backup option.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #21",
+    "q1Solutions": "We have used childcare center, nanny, support from family, and adjusted work schedule. I feel fortunate that our profession offers enough flexibility for me to be the primary caregiver for my kids. Honestly, I don’t know how two parents with traditional 9-to-5 jobs manage childcare in the U.S. My kids attend public school, and many school holidays are regular workdays for parents. On top of that, young children have frequent medical and dental appointments that are often only available between 9 a.m. and 4 p.m. How are working parents supposed to make all of that work?",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "All of those, plus (limited) hours and (unlimited amount of) viruses of childcare centers.",
+    "q4OneChange": "Access, which means availability + affordability.",
+    "q5Insights": "As my kids have gotten older, they’ve developed different interests and now participate in different after-school activities. Coordinating all the drop-offs has become challenging for me to handle on my own.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #22",
+    "q1Solutions": "Hong Kong has no such problems because we have excellent Nannie’s !",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Quality is important.  In Hong Kong, kindergarten is linked with elementary schools, which are linked with middle and high schools,",
+    "q4OneChange": "University support is important.",
+    "q5Insights": "Professors can pool their kids together and form some day care centers",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #23",
+    "q1Solutions": "At different stages, we have relied on family support, a nanny, and ultimately daycare centers for childcare services. In general, Canada/Toronto offers a decent range of those services, but wait times can be long for affordable daycare options.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Probably waiting times. This essentially forced us away from a nearby affordable center toward a more distant (and more \"high-end\") option. This cost is OK, but the pick-up/drop-off time becomes a little cumbersome, which makes me work from home more frequently.",
+    "q4OneChange": "Maybe there could be a central system to match daycare centers with families in need. The waitlists could be pooled to reduce inefficiency (there seems to be little cost to people signing up for multiple daycare centers).",
+    "q5Insights": "Childcare appears to be a pain point for academics, especially pre-tenure faculty. The one-year tenure clock extension is useful, but it doesn't address the mental stress of juggling two demanding jobs (childcare + tenure). The \"inflexible\" nature of teaching makes it hard to navigate some of the logistics challenges of childcare.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #24",
+    "q1Solutions": "I have a 1.5 year old, and the childcare during the first year of his life has been, in chronological order, my wife's parental leave, then my parental leave, then a rotating combination of my mom and my wife's mother -- we are very lucky to have had that kind of support. My son will start preschool/daycare in the upcoming fall.\n\nThere are several childcare options near me, but many have age restrictions (i.e., must be 2+ years), and all are quite expensive.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Finding the right mix of quality, availability, and affordability has been a leading challenge. Moreover, because of the competitive market, the first dimension on which we have compromised is affordability.",
+    "q4OneChange": "Affordability would be the leading choice here.",
+    "q5Insights": "Thank you for doing this! I look forward to your findings.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #25",
+    "q1Solutions": "Daycare, grandparents",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Long waiting times ( in Canada), some teachers are not caring and difficult to switch class/daycare",
+    "q4OneChange": "Employer university support — our university’s daycare needs two years’ waiting time; also lack of emergency backup.",
+    "q5Insights": "In Canada, there is a lack of price differentiation ( for example, in China you can choose cheaper or expensive ones; while Canada only have cheap ones which introduce congestion and result in low quality as teachers are  poorly paid low.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #26",
+    "q1Solutions": "Daycare",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Availability",
+    "q4OneChange": "Cost",
+    "q5Insights": "Kids with Special needs are extremely hard to place",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #27",
+    "q1Solutions": "confinement center, confinement nanny, domestic helper, daycare.\n\nYes. In Singapore, all the above options are available, nearby and many of them are very much affordable. The quality of the childcare service is also generally high.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Even with the support of a strong childcare system, I still face significant challenges. Childcare does not depend solely on institutional support; it also requires a considerable amount of parents’ time, energy, and emotional attention. Many caregiving responsibilities cannot be fully outsourced, particularly when a child is sick, adjusting to a new environment, or simply needs a parent’s presence. As a result, my husband and my workflow can occasionally be disrupted, and it can be difficult to maintain a consistently predictable work schedule.",
+    "q4OneChange": "I think the situation really depends on the country. Personally, I have no complaints about the childcare system in Singapore, which provides strong institutional support for working parents.\n\nMy university also allows female faculty members to extend their tenure clock by up to two years, although the same policy does not apply to male faculty members. However, I am not sure whether simply granting male faculty members the same extension would necessarily lead to greater involvement in childcare. Formal policies can provide important support, but they may not be sufficient on their own to change how caregiving responsibilities are shared within families.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #28",
+    "q1Solutions": "Childcare center, nanny, family support. Options were plenty, but the quality seemed widely variable with mostly all mediocre. Even the one we finally used as a daycare had lots of attrition and neglect occasionally.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Quality. It's hard to navigate work stresses and teaching responsibilities when kids have a tough time at the childcare place and then have tough emotions to process at home. The hours are also not suitable for evening teaching or Saturday, especially when the kids are &lt;5 years old and there is no family support in the city.",
+    "q4OneChange": "employer support by ensuing parents of young kids do not have weird work hours and are able to accommodate sick days. we know there is 2 years of pretty much back to back sicknesses when starting daycare, which has seriously affected our ability to function. things like teaching are so rigid that it would be fantastic to take some time off teaching during the initial years to support young parents.",
+    "q5Insights": "Thanks for doing this! I hope something useful comes out for future generations. I also find it horrible that due to the well known difficulties of parenting in initial years and uncertainties, lots of tenure-track folks postpone having kids to later in life, which brings its own can of worms!",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #29",
+    "q1Solutions": "I used various solutions, including family support, childcare center/day care, and part-time or living-home nannies. To be honest, I am not satisfied with the availability of qualified and professional nannies in my residence country, because the availability is quite limited, especially after Covid and due to unfriendly visa/immigration policies in the US, which makes it extremely difficult to find qualified and reasonably priced nannies.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "While there are many options for day cares, such as day-care centers, it is still very challenging for the working parents to find coverage outside the 8~9 hrs of day-care coverage. Consider a tenure-track AP job which usually requires more than 10~12 hours of work daily, 7 days a week. This means that one needs additional childcare/baby-sitting outside the open hours of day cares, in particular during weekends. \n\nAdditionally, whenever the child is sick, s/he is required to stay at home, meaning that the parents must take a pause on their work and spend the full days and nights with their child. This becomes more challenging if there are more than one child in the home and during the flu season when the children take turns to become sick.",
+    "q4OneChange": "Top priority from my perspective: flexibility. That is, for tenure-track faculty who is also a new parent, they need more coverage during weekends or when their children are sick.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #30",
+    "q1Solutions": "We have used all. :) the options in UK/US are not great — no access to affordable nannies, visa restrictions for visiting family members.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Affordability and quality are the main challenges. \n\nWe moved around the world. :)",
+    "q4OneChange": "For UK/US, it will be allowing a visa class for domestic workers.",
+    "q5Insights": "I am not sure if this counts as childcare, but elementary schools should run for longer hours, and less breaks in between. :)",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #31",
+    "q1Solutions": "While living in the US, we paid well in excess of $15k a year for child care for the first four years of our child’s life. We didn’t have a second child in part because of the cost. The daycare was great though with hours between 6.30am and 6pm. We never left the child that long of course but to have flexibility in hours was phenomenal.\nWe moved to France after the child turned four. In France, school is mandatory starting the calendar year they turn 3. Our child goes Monday, Tuesday, Thursday and Friday from 8.30am to 4.30pm. Before and After school care as well as Wednesday garderies (daycares) are available but we chose to forego this for the first year to allow the child to better acclimatize and not overwhelm them. We organized private after school and Wednesday care in English using a sitter. Next year, the child will stay after school two days a week and attend Wednesday morning care. The costs are about $60/month. We now live closer to family and have them come by during challenging times.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Having a child in May 21 implied that a lot of daycares had shut down with the onset of COVID. Finding a daycare in time for starting with work was a pure gamble, there was no choice. I took the first non-private daycare I could find (and lucked out). We were waitlisted on at least ten daycares. \nBecause it was Covid, initially the day care group had to shut down every time there was a Covid case for five days. My mother stayed with us for two months during my intense teaching period to ensure that the child was taken care of. My husband was teaching on a different campus that term and couldn’t help. We continued this for the following years.",
+    "q4OneChange": "In the US, affordability. In France, more integrated Wednesday care. Overall, I really liked the flexibility of our daycare in the US: no need to let them know in advance when or how long the child joined the daycare!",
+    "q5Insights": "I think my child learnt a lot from daycare: more than I thought possible. I highly recommend (a good) daycare. \nThe US (or at least Oregon where we lived) had strict ratios for the care of children. So the ratios were great between teachers and children!",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #32",
+    "q1Solutions": "We chose a live-in nanny. We are not particularly satisfied with this arrangement, because it is difficult to find a professional and responsible nanny, and live-in nannies usually come with a high price tag.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "The biggest hurdles we faced were the high cost of childcare and inconsistent service quality. Due to these issues, and also out of a desire to build a closer parent-child bond, we had to devote a huge amount of time to childcare ourselves. As a result, we barely had any personal free time, and our working hours were constantly squeezed.",
+    "q4OneChange": "I wish there were a unified or mainstream platform that could display transparent service quality information of live-in nannies, lowering the search cost of finding a suitable caregiver.",
+    "q5Insights": "No.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #33",
+    "q1Solutions": "My family has been using the childcare center for more than two years. Overall, I really appreciate the quality of care and the services provided. However, the cost of childcare is quite high. Since I have two children, I ended up paying roughly $3,000 per month.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "While I was a Ph.D. student, my stipend was not enough to cover the childcare expenses, so I had to rely on the money I had saved while I was working.",
+    "q4OneChange": "affordability",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #34",
+    "q1Solutions": "We used all of the above. My partner took a career beak for 5 years and after that returned to work part time (first 2 days a week for 1.5 years and then 3). We used nursery before for age of 1.5-3, then afterschool nanny for some days of the week, and family/friends for one offs / emergency. \n\nChildcare options were available but typically expensive and not very flexible. The cost was not a huge issue for us, but for a family in the median of the income distribution it is not affordable",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Quality, luck of flexibility.",
+    "q4OneChange": "More government support",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #35",
+    "q1Solutions": "We live in the US and have used a childcare center. We are able to make it work because we earn enough as working parents. It can be expensive, so I also understand that people need to leave their jobs to take care of their kids.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "The biggest challenge was facing the uncertainty of not knowing if/when the childcare was going to be available.",
+    "q4OneChange": "I think that, at least in the US, the main challenges are both access (limited space, long waitlists) and affordability.",
+    "q5Insights": "I have had a positive experience with an employer initiative that I am lucky to have. The school partners with Bright Horizons for back-up care, which includes both daycare centers and verified nannies. This way, you feel you have a plan B in case your kid is sick or something happens with your plan A. I have also used it in other cities in the country when I am traveling for a conference!",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #36",
+    "q1Solutions": "When my daughter was born, my wife took care of her at home for the first six months. Then she returned to work, and we had a rotating schedule of grandparents taking care of her at our home (which they had to fly to) for three months. Then my daughter started attending pre-school (year-round, full day). Then we moved when my daughter was 2 and we switched to a preschool program which we really liked but that had worse hours (8:30-3pm). I adjusted my work schedule to start my workday around 7am and end it at 3pm for school pickup. This lasted one year. We also have grandparents help us cover the summer holidays.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "I was very fortunate that affordability was never an issue – rather, we had the opposite problem, we would rather have spent less time jockeying for position on waitlists. The biggest challenge is assessing whether a program is good (and good for your child in particular) from the outside. Gathering expert opinions from colleagues is the best signal but difficult to gather and can be sensitive since people are not willing to share bad experiences (for understandable reasons).",
+    "q4OneChange": "Quality (and especially how to assess quality) is the biggest issue I don't have a solution for.\nI wish I could spend more money to reduce the time spent investigating child care options.",
+    "q5Insights": "I feel really fortunate as an academic to be able to alter my work schedule (non-teaching) to be there for my family.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #37",
+    "q1Solutions": "Nanny, family support, adjusted work schedule.\nChild care options are reasonable after age of 2. There are hardly any child care centers catering to kids below 2 years of age. It is getting increasingly difficult to find nannies, we somehow found a nanny after much search.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Affordable and experienced nannies are increasingly difficult to find. Created much stress for us, the nanny who we finally found was constantly trying to make us pay even more (though we were already paying her well).",
+    "q4OneChange": "1. University support - we do not have child care center in the university at the moment. Would have been much easier if there was a child care center in the university. \n2. Emergency backup care- required when nannies suddenly don't show up.",
+    "q5Insights": "The difficulty in finding child care options becomes so stressful that at some point we feel a single child is enough. If more people start feeling this way, it not be a good thing in the long run- for the single children, and also fertility rate of the country.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #38",
+    "q1Solutions": "Babysitter and childcare centers. Regarding babysitters, I am satisfied overall because there is a good supply of babysitters and nannies. Regarding childcare centers, i am concerned about price and waitlists",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "Waiting time affordability and commute. It impacted savings rate and commute logistics",
+    "q4OneChange": "Affordability",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #39",
+    "q1Solutions": "Single income family. My wife decided to be a stay-at-home mom. We received occasional family support.\n\nUniversity parental leave allowance was extremely helpful for me.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "We decided to be a single income family.",
+    "q4OneChange": null,
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #40",
+    "q1Solutions": "Nanny, daycare, adjusted work schedule (working on research at night). I was not very satisfied with options. Nannies cost a fortune here and many good daycares have long waitlists.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Hours, location and quality. I had to compress my work days to accommodate drop-off and pick-up.",
+    "q4OneChange": "Access - make them widely available and high quality, ideally at my workplace.",
+    "q5Insights": "I am so glad you are thinking about this important area from an OR/OM perspective!",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #41",
+    "q1Solutions": "I needed childcare in 2013~2016 as I was wrapping up my Ph.D. We used childcare center. The tuition was out of my budget but there was a state-wise support for low income families (PhD students' income qualified) which took care of the majority of expenses. We were satisfied with the availability of childcare options.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "As I mentioned, affordability was a problem/challenge but there was a state-wise support for low income families.",
+    "q4OneChange": "If there was a childcare facility at university, it would have been much better as logistics were not efficient to send our child to a childcare facility outside of campus.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #42",
+    "q1Solutions": "We've used daycare when they were younger, nanny in the summer, after school care when they entered elementary school, and adjusted work schedule for mom during the school year and in the summer. I find childcare to be one of my largest struggles -- it's so hard finding something my kids enjoy so I can work.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "I singed my kids up for daycare before they were born as I heard about the long wait lists that happen! Luckily my husband and I both do well so cost was never an issue with childcare. The largest challenge was finding reliable care that my kids actually liked. Also, the unexpected childcare closures due to weather or other issues are extremely hard!",
+    "q4OneChange": "Access and quality! High-quality and reliable options are so hard to find!",
+    "q5Insights": "Childcare is a huge struggle espeically for moms!",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #43",
+    "q1Solutions": "family support (mother-in-law) + adjusted work schedule (3 day a week schedule for my wife)\n\nit worked out pretty well, but had financial implications",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "The fact that our parents were available was a big help",
+    "q4OneChange": "at older child ages, more flexibility at the start/finish times of schools",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #44",
+    "q1Solutions": "Over the past few years, we have lived in two countries — the US and Germany — under quite different circumstances.\nIn the US, we had no family nearby, so our children attended daycare from 8am to 5pm. The availability of childcare options was generally good, although there were long waitlists initially, each requiring a fee just to join. Because our family schedules changed every semester, with different teaching timetables and conference travel, temporary or part-time arrangements were impractical. We initially tried fewer daycare hours supplemented by a nanny at home, but this proved unreliable: cancellations were frequent, and good nannies were hard to find. Daycare at least offered a dependable solution, and overall we were satisfied with it.\n\nIn Germany, we have family support, so relatives can sometimes help with pickups or step in when one of us is travelling. We also have a reliable nanny. This backup matters more here because the daycare has a lower threshold for sending sick children home and turns them away more often than our previous daycare did. There is also a general trend of staffing shortages in daycare centers which means sometimes the kids cannot attend daycare. That said, we like the daycare itself - compared to many other daycares around us, this daycare has one of the lowest staff turnover, which provides consistency and continuity of care. Moreover, in Germany, daycare is nearly free.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "In the US, the biggest childcare challenge was long waitlists, which left us stressed until the last moment -the semester was about to start and we still had no solution in place. There is also enormous variation between daycares in terms of philosophy and quality, so the choice of daycare really matters. Being in a small college town, our outside options were very limited.\n\nIn Germany, the variation between daycares is minimal and we really appreciate that aspect.  It removes that whole additional struggle of clawing for a spot at the \"best\" daycare that we experienced. People seem to judge daycares mainly by how stable the staffing is, and it is common to simply send children to the nearest one - convenient location is the key decision factor. However, reliability of care hours is a bigger challenge here, and we frequently face days without childcare at short notice.\n\nWe were reluctant to send our children to daycare for so many hours a day, but given our erratic schedules and how demanding and stressful our work can be, it seemed like the most dependable option. These challenges affected our work life mainly through unpredictability: sudden gaps in childcare meant cancelled meetings, lost research time, and rearranged teaching, and one of us always had to be on standby. In the US, the lack of backup options meant any disruption fell entirely on us; in Germany, family support and a reliable nanny absorb much of this, though coordinating these arrangements still takes ongoing effort and planning.",
+    "q4OneChange": "The main challenge for us in all of these situations has been unpredictability. I would say that emergency backup care is the most crucial change. I remember having to cancel class on several occasions because I could not arrange childcare at short notice. Maybe when regular care falls through, you can book childcare through an app or hotline and either receive a spot in a designated backup center or have a vetted in-home caregiver, with the employer covering some of the cost beyond a small copay (I think a version of this exists in some universities but I have not experienced it). \nThe German system does provide paid leave for parents caring for sick children, but this assumes you stop working, which does not really work for us when we have to teach. \nMore formalized pooled childcare models, for example, daycares or municipalities keeping a float of substitute caregivers on call, might also help.",
+    "q5Insights": "Having also lived in the UK, I'm happy to share a broader cross-country perspective on childcare systems and challenges if helpful! :)",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #45",
+    "q1Solutions": "Nanny, family support, daycare. \n\nSatisfied.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Location. The daycare is a bit far from my home; it took 1.5 hours per day on the road to drop off and pick up my child. \n\nExpenses. It's not cheap.",
+    "q4OneChange": "Financial support from employer.",
+    "q5Insights": "Community support can also be very helpful. In our neighborhood, families with young children often help each other for temporarily childcare. Parents take turns to look after kids of neighbors either at home or in playground. For us, it tends to free up quite amount of time especially during weekends.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #46",
+    "q1Solutions": "In the USA, there is only mandatory unpaid time off, although my wife's company offered paid time off. I was eligible to request a teaching load reduction but did not do so. We depended on parents helping and later nannies helping but we managed until sending kids to a day care. Overall, the options were not idea but workable.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "The childcare quality was fine. It was a bit pricey but not overly so.",
+    "q4OneChange": "employer-provided childcare would be great.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #47",
+    "q1Solutions": "My wife's employer, University of Konstanz, Germany, provides what I believe to be the best childcare in the world: https://www.uni-konstanz.de/en/equalopportunities/family/childcare/kinderhaus-at-the-university-of-konstanz/\n\nEvery faculty member gets an offer for spots for each child, fairly priced, 7:30 a.m. until 5 p.m., plus support for extra ordinary teaching hours (individual child support until 8p.m.) or when kids are ill and must stay home. Called plan B. Other Unis can learn a lot. U of Konstanz does not have a business school though.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "No such issues in Konstanz.",
+    "q4OneChange": "All unis should have a system that Konstanz offers.",
+    "q5Insights": "It's nice that you are working on this important topic. I understand that I am privileged and childcare is a strong reason for not switching employers...",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #48",
+    "q1Solutions": "We are currently signing up for a childcare center. The availability is ok but not exceptional. I would have liked more options that are within a convenient radius, ideally on foot or at least without traffic.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "We are currently in the process, but uncertainty on the waiting list times has been challenging. We were told that there was no need to rush to sign up for the wait list at our preferred location, and then a few weeks later were told it is possible that we may not be able to start until months after our desired start date (8+ months after joining the wait list).",
+    "q4OneChange": "I don't have enough experience yet to know, but I imagine emergency backup care would be extremely useful.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #49",
+    "q1Solutions": "childcare center/nursery, nanny, family support, adjusted work schedule\n\nAvailability is ok, but too expensive.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "affordability \n\nI relied on family support until my son was old enough that we feel comfortable to send him to daycare from Monday to Friday. We were lucky to find a very responsible nanny during that time so she could come and help us on Saturday. I got the time I need to work, but the cost is a major challenge, which limits other aspects of our family life.",
+    "q4OneChange": "affordability",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #50",
+    "q1Solutions": "We have used a childcare center (daycare) with full-time enrollment starting around 4.5 months.\n\nThe area where I live seem to have a good general availability of daycare options, and also lots of individuals willing to work as nannies. Decently satisfied with the options (would be better if we lived closer to at least one set of grandparents, but unfortunately that was not in the cards for us).",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "I paid a deposit for a spot at the daycare when I was about 4 months pregnant, as there could have been a significant wait had I not. Fortunately for those living in my area, the current daycare that we use is expanding to a second location, and another high quality daycare has opened in the area, so it seems like supply is getting better.\n\nProbably the biggest childcare challenge would be managing our son when he would get sick (frequently in our first year of daycare) and balancing that with work and teaching schedules since both parents are academics.",
+    "q4OneChange": "affordability could be better, higher quality backup care could also be better. we have access to backup care through our university, but i've heard it is not great and the people who show up to care for your child are not very professional. So we never ended up using it.",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #51",
+    "q1Solutions": "I have used primarily day care centers. I have also used (to a more limited extent): part time nanny and adjusted work schedule for me and my spouse. \n\nI have found it difficult to obtain a spot in a quality daycare. Nannies are expensive and often unreliable.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "Long waiting times at quality day care centers was the primary challenge for me. I have had to reduce my work hours or work late in the night to provide child care in combination with a part time nanny. Also, when the child is sick (which happens frequently in the early years) and cannot go to daycare/school, it is always very difficult to find last minute a child care plan. I am fortunate that my schedule is flexible when I am not teaching, but without any family nearby, there has been times when it was very difficult to manage the situation if I was teaching.",
+    "q4OneChange": "my university offers a child care center but I live far so it wasn't a practical option for me. The main thing I would change would be to create more spots in day care centers (the only reliable child care option) and also have work offer back up care when child is sick and cannot go to day care.",
+    "q5Insights": "I think it is a real issue for working mothers, especially those who do not have work flexibility. Academics usually enjoy a lot of flexibility (work from home, adjust hours) so it has not been too bad. I would add that flexibility can have its flip side. Because my schedule is more flexible than my spouse's, I end up having to be the back-up caregiver whenever needed.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #52",
+    "q1Solutions": "family support",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "burden on family members who take care of the child.",
+    "q4OneChange": "quality",
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #53",
+    "q1Solutions": "Daycare and occasional babysitters. Yes, satisfied, although it is highly local. My university has a daycare on campus, and while we had to wait for a long time, it was great when we eventually had a spot.",
+    "q2MultipleWaitlists": false,
+    "q3Challenges": "long waiting times. I can imagine affordability being a major issue for many families.",
+    "q4OneChange": null,
+    "q5Insights": null,
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #54",
+    "q1Solutions": "We have relied on a combination of a childcare center, family support, adjusted work schedules, and occasional babysitters.\n\nI have not been satisfied with the availability of childcare options in the United States. The problem involves not only cost, but also limited capacity, long waitlists, restricted operating hours, and a lack of reliable care outside standard business hours. Available childcare arrangements often do not align with the schedules of working professionals, particularly those who teach evening classes, travel for work, or have responsibilities that cannot easily be rescheduled.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "One of our biggest challenges was the rigidity of my work schedule. My son was born during a semester in which I was teaching three course sections, with the final section ending at 6:20 p.m. Although my employer formally offered six weeks of parental leave, using the leave required me to find colleagues who were willing to cover my teaching responsibilities without additional compensation. That arrangement effectively shifted responsibility for staffing the leave from the employer to the employee.\n\nBecause asking colleagues to cover several weeks of teaching would have imposed a substantial burden on them, I was unable to use the full leave in a meaningful way. Our department chair eventually volunteered to cover two weeks of classes, and two other colleagues recorded student presentations for me. I was very grateful for their support, but the arrangement depended almost entirely on personal goodwill and still provided far less time than a family generally needs immediately after the birth of a child.\n\nAnother major challenge was the lack of affordable support during evenings and overnight hours. While my wife and I were both working and sharing childcare responsibilities, access to a qualified night nanny or postpartum doula would have been extremely helpful, particularly during the first several weeks. However, high-quality services were prohibitively expensive, and no meaningful employer or government subsidy was available.\n\nEven after obtaining a place at a childcare center, care is not consistently available. Both my wife and I work full time and have relatively rigid work hours, especially when I am teaching. If our child becomes ill and the childcare center requires us to pick him up, we may have no practical capacity to leave work and care for him. The same problem arises when a center closes unexpectedly or reduces its hours. There is no reliable contingency arrangement for such situations, and families are generally expected to absorb the disruption immediately, regardless of their work responsibilities. Emergency backup care would be particularly valuable in these circumstances.\n\nThe lack of childcare support has also significantly limited my participation in professional conferences. Before my child was born, I regularly attended at least three conferences each year. Since his birth, I have not been able to maintain that level of participation. None of the major conferences in my field provides on-site childcare. Attending a conference therefore generally requires me to leave our child at home with my wife, who also works full time and does not have the capacity to manage childcare alone for several consecutive days. The difficulty is compounded by the fact that many professional conferences overlap with weekends, when regular childcare is typically unavailable.\n\nAs a result, childcare constraints have affected not only our daily work schedules but also my ability to participate in activities that are important for research collaboration, professional visibility, networking, and career development. The burden can be particularly significant for researchers with young children who do not have nearby family support.\n\nThese constraints created significant sleep deprivation, scheduling pressure, and uncertainty for both of us. They also made it difficult to separate work responsibilities from recovery, newborn care, and family needs. More broadly, the experience showed me that childcare availability cannot be evaluated only by whether a daytime childcare slot exists. Reliability, operating hours, backup options, support during the period immediately following birth, and childcare during work-related travel are equally important.",
+    "q4OneChange": "I would establish automatic, protected parental leave beginning when a child is born, with the employer—not the employee—responsible for arranging temporary labor coverage during the employee’s absence. Ideally, this protection would be legally mandated so that access to meaningful leave would not depend on an employee’s department, supervisor, colleagues, bargaining power, or willingness to ask others for favors.\n\nI would also support employer- or government-funded emergency backup care. Families need a dependable option when regular childcare is unavailable because of illness, provider closures, waitlist gaps, or unexpected work obligations.",
+    "q5Insights": "One important lesson from our experience is that childcare is not simply a matter of affordability or total capacity. It is also a coordination and reliability problem. Parents must align childcare availability with work schedules, childbirth timing, provider hours, illnesses, closures, professional travel, and unpredictable changes in family needs.\n\nObtaining a place at a childcare center does not mean that care is consistently available. Children become ill, centers close, and providers may require pickup with little notice. For parents with rigid work schedules, these disruptions can be nearly impossible to manage. A childcare system should therefore be evaluated not only by the number of available spaces, but also by whether families have workable backup options when ordinary arrangements fail.\n\nCurrent systems often place the responsibility for managing all of these disruptions on individual families. Although families with flexible jobs or nearby relatives can assemble some solutions, others may have no workable solution. A more effective system would provide not only regular childcare, but also parental leave, extended-hour options, emergency backup care, and clearer institutional responsibility when an employee temporarily cannot work because of childbirth or caregiving needs.\n\nProfessional societies should also recognize childcare as an access and inclusion issue. Major conferences could offer subsidized on-site childcare or vetted caregiver services. Without such support, researchers with young children may be unable to participate fully in conferences and other professional activities, even when those activities are central to their careers.\n\nPlease feel free to reach me at hz699096@gmail.com if you would like to discuss further.",
+    "source": "survey"
+  },
+  {
+    "displayName": "Survey respondent #55",
+    "q1Solutions": "Nanny, family support, adjusted work schedule, childcare center. \n\nThere are options available, but it is hard to find the right combination of quality, affordability, and accessibility.",
+    "q2MultipleWaitlists": true,
+    "q3Challenges": "long waiting times",
+    "q4OneChange": "Access",
+    "q5Insights": null,
+    "source": "survey"
+  }
+]
