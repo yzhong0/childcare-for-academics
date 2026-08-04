@@ -56,8 +56,9 @@ Configuration in `.env`:
 (`../survey/Childcare Experience Survey_July 26, 2026.xlsx`), drops the question-wording header
 row, decodes Q2 (1=Yes, 2=No), strips ALL identifying columns (IP address, geolocation,
 timestamps, response IDs), and writes `prisma/seed-data.json`. Respondents are labeled
-"Survey respondent #N". Re-run it and then `node prisma/seed.mjs` to refresh from a new export
-(the seeder skips if survey rows already exist).
+"Anonymous". Re-run it and then `node prisma/seed.mjs` to refresh from a new export
+(the seeder skips if survey rows already exist; it still renames any leftover
+"Survey respondent #N" labels to Anonymous).
 
 ## Deploying publicly
 

@@ -110,7 +110,7 @@ export default function AboutPage() {
           Sharings and comments are public. We do not require accounts, and display names are
           optional. The seeded survey responses were anonymized before publication: all
           identifying metadata (IP addresses, locations, timestamps, response identifiers) was
-          removed, and respondents are labeled only as “Survey respondent #N.” If a sharing is
+          removed, and respondents are labeled “Anonymous.” If a sharing is
           yours and you would like it edited or removed, contact the research team.
         </p>
       </div>

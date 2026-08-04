@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/db";
+import { publicDisplayName } from "@/lib/display";
 import { tagSharing } from "@/lib/themes";
 import { QUESTIONS, SHORT_LABELS } from "@/lib/questions";
 import { ThemeBadge } from "@/components/ThemeBadge";
@@ -51,7 +52,7 @@ export default async function SharingDetailPage({
         </Link>
         <div className="mt-3 flex flex-wrap items-baseline justify-between gap-2">
           <h1 className="text-2xl font-semibold tracking-tight text-stone-900">
-            {sharing.displayName}
+            {publicDisplayName(sharing.displayName, sharing.source)}
             {sharing.country ? (
               <span className="ml-2 text-base font-normal text-stone-500">({sharing.country})</span>
             ) : null}

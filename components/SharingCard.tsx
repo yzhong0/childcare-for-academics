@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Sharing } from "@prisma/client";
+import { publicDisplayName } from "@/lib/display";
 import { tagSharing } from "@/lib/themes";
 import { ThemeBadge } from "./ThemeBadge";
 
@@ -22,7 +23,9 @@ export function SharingCard({
       className="block rounded-xl border border-stone-200 bg-white p-5 shadow-sm hover:border-amber-300 hover:shadow"
     >
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <span className="font-medium text-stone-900">{sharing.displayName}</span>
+        <span className="font-medium text-stone-900">
+          {publicDisplayName(sharing.displayName, sharing.source)}
+        </span>
         <span className="text-xs text-stone-400">
           {sharing.createdAt.toLocaleDateString("en-US", {
             year: "numeric",

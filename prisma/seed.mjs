@@ -7,6 +7,14 @@ const prisma = new PrismaClient();
 const here = dirname(fileURLToPath(import.meta.url));
 
 async function main() {
+  const renamed = await prisma.sharing.updateMany({
+    where: { displayName: { startsWith: "Survey respondent" } },
+    data: { displayName: "Anonymous" },
+  });
+  if (renamed.count > 0) {
+    console.log(`renamed ${renamed.count} survey display names to Anonymous`);
+  }
+
   const existing = await prisma.sharing.count({ where: { source: "survey" } });
   if (existing > 0) {
     console.log(`survey sharings already seeded (${existing}); skipping`);
