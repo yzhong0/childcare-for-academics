@@ -25,7 +25,7 @@ export default async function DiscussionsPage() {
     <div className="mx-auto max-w-3xl space-y-8">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight text-stone-900">Discussion board</h1>
-        <p className="mt-3 text-sm leading-relaxed text-stone-600">
+        <p className="mt-3 text-justify text-sm leading-relaxed text-stone-600">
           This board is a free space for everyone who cares about childcare: researchers,
           parents, providers, employers, and policymakers. Start a thread to float a research
           idea, brainstorm a study design, debate an operational fix or a policy proposal, or

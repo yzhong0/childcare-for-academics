@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/db";
 import { publicDisplayName } from "@/lib/display";
-import { tagSharing } from "@/lib/themes";
+import { topicsForSharing } from "@/lib/themes";
 import { QUESTIONS, SHORT_LABELS } from "@/lib/questions";
 import { ThemeBadge } from "@/components/ThemeBadge";
 import { CommentForm } from "@/components/CommentForm";
@@ -26,7 +26,7 @@ export default async function SharingDetailPage({
   });
   if (!sharing || sharing.hidden) notFound();
 
-  const themes = tagSharing(sharing);
+  const themes = topicsForSharing(sharing);
   const answers: { key: keyof typeof SHORT_LABELS; question: string; value: string | null }[] = [
     { key: "q1", question: QUESTIONS.q1, value: sharing.q1Solutions },
     {

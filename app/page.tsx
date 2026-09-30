@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { prisma } from "@/lib/db";
-import { themeQuotes, themeStats } from "@/lib/themes";
+import { browseTopicStats, keywordsForTopic, themeQuotes } from "@/lib/themes";
+import { wordCloud } from "@/lib/wordcloud";
 import { ThemeBadge } from "@/components/ThemeBadge";
+import { WordCloud } from "@/components/WordCloud";
 import { SharingCard } from "@/components/SharingCard";
 
 export const dynamic = "force-dynamic";
@@ -12,24 +14,24 @@ export default async function HomePage() {
     orderBy: { createdAt: "desc" },
     include: { _count: { select: { comments: { where: { hidden: false } } } } },
   });
-  const stats = themeStats(sharings);
+  const stats = browseTopicStats(sharings);
   const activeStats = stats.filter((t) => t.count > 0);
-  const maxCount = Math.max(...stats.map((t) => t.count), 1);
+  const cloud = wordCloud(sharings);
   const recent = sharings.slice(0, 3);
 
   return (
     <div className="space-y-10">
       <section className="rounded-2xl bg-amber-50 border border-amber-100 p-6 sm:p-8">
         <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight text-stone-900">
-          What is it really like to find childcare for academics?
+          What is it really like to find childcare for working parents?
         </h1>
-        <p className="mt-4 max-w-3xl leading-relaxed text-stone-700">
+        <p className="mt-4 text-justify leading-relaxed text-stone-700">
           As many of us know firsthand, finding childcare solutions for working professionals can
           be surprisingly complex, and the challenges often extend well beyond cost. We are an
           operations management research team — Jun Li (Ross School of Business, University of
           Michigan), Senthil Veeraraghavan (the Wharton School, University of Pennsylvania), and
           Yueyang Zhong (London Business School) — exploring operational solutions to childcare
-          policy challenges. This forum collects real experiences from academic families: what
+          policy challenges. This forum collects real experiences from working families: what
           solutions they used, what stood in their way, and what they would change.
         </p>
         <div className="mt-5 flex flex-wrap gap-3">
@@ -51,30 +53,10 @@ export default async function HomePage() {
       <section>
         <h2 className="text-lg font-semibold text-stone-900">Major topics</h2>
         <p className="mt-1 text-sm text-stone-500">
-          Every sharing is automatically tagged against these categories. Click a topic to read
-          the sharings behind it.
+          Select a word to read the sharings that mention it.
         </p>
-        <div className="mt-4 space-y-2">
-          {stats.map((t) => (
-            <Link
-              key={t.id}
-              href={`/sharings?theme=${t.id}`}
-              className="group flex items-center gap-3 rounded-lg border border-transparent px-2 py-1.5 hover:border-stone-200 hover:bg-white"
-            >
-              <span className="w-56 shrink-0 text-sm text-stone-700 group-hover:text-amber-700">
-                {t.label}
-              </span>
-              <span className="h-3 flex-1 overflow-hidden rounded-full bg-stone-100">
-                <span
-                  className={`block h-full rounded-full ${t.bar}`}
-                  style={{ width: `${(100 * t.count) / maxCount}%` }}
-                />
-              </span>
-              <span className="w-12 text-right text-sm tabular-nums text-stone-500">
-                {Math.round(100 * t.share)}%
-              </span>
-            </Link>
-          ))}
+        <div className="mt-4">
+          <WordCloud words={cloud} />
         </div>
       </section>
 
@@ -87,7 +69,9 @@ export default async function HomePage() {
               // often matches several topics.
               const used = new Set<number>();
               return activeStats.slice(0, 3).map((t) => {
-                const quote = themeQuotes(sharings, t, 10).find((q) => !used.has(q.id));
+                const quote = themeQuotes(sharings, { keywords: keywordsForTopic(t) }, 10).find(
+                  (q) => !used.has(q.id),
+                );
                 if (!quote) return null;
                 used.add(quote.id);
                 return { theme: t, quote };

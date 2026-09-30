@@ -10,7 +10,7 @@ export default function SharePage() {
         <p className="mt-2 text-sm leading-relaxed text-stone-600">
           Answer as many of the five questions as you like — every question is optional, and you
           can post anonymously. Your sharing will appear publicly on this forum and will be
-          included in the live theme summary.
+          included in the topic word cloud.
         </p>
       </div>
       <div className="rounded-2xl border border-stone-200 bg-white p-6 sm:p-8">

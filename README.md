@@ -1,16 +1,16 @@
-# Childcare for Academics
+# Childcare
 
 A public, forum-style website built by an operations management research team (Jun Li,
 University of Michigan; Senthil Veeraraghavan, University of Pennsylvania; Yueyang Zhong,
-London Business School) to share academic families' experiences with childcare. Seeded with 55
+London Business School) to share working families' experiences with childcare. Seeded with 55
 anonymized responses from a July 2026 survey within the MSOM Society; visitors can add their
 own sharing in the same five-question format, comment on existing sharings, and browse a live
 summary of major topics.
 
 ## Features
 
-- **Topics dashboard** (`/`) — real-time topic summary recomputed from the database on every
-  visit: the share of sharings mentioning each topic, representative quotes, recent sharings.
+- **Topics dashboard** (`/`) — word cloud of what families talk about (waiting list, waiting
+  time, availability, and access lead), representative quotes, and recent sharings.
 - **Browse** (`/sharings`) — all sharings, filterable by topic category and full-text search.
 - **Sharing detail** (`/sharings/[id]`) — the five answers with a public comment thread.
 - **Share your experience** (`/share`) — form mirroring the original survey (all questions
@@ -25,11 +25,11 @@ summary of major topics.
 
 ## Theme engine
 
-`lib/themes.ts` defines ten predefined categories (affordability, waitlists, availability,
-quality, location, employer/university support, flexibility, nanny/family care, policy,
-emergency backup). Each sharing is tagged by case-insensitive keyword matching over its
-free-text answers, at read time — so tags, counts, and the narrative summary always reflect
-the current content. To tune the categories, edit the keyword lists in that file.
+`lib/themes.ts` tags each sharing by case-insensitive keyword matching over its free-text
+answers, at read time. On Browse Sharings, waitlists, waiting time, availability, and access
+are one filter, “Waitlist & access.” The home-page word cloud still shows those words
+separately, and they stay the largest. To tune the categories, edit the keyword lists in
+that file.
 
 ## Anti-spam
 

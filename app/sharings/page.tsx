@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { prisma } from "@/lib/db";
-import { THEMES, sharingText, tagSharing } from "@/lib/themes";
+import { resolveBrowseTopic, BROWSE_TOPICS, sharingText, topicsForSharing } from "@/lib/themes";
 import { SharingCard } from "@/components/SharingCard";
 
 export const dynamic = "force-dynamic";
@@ -11,7 +11,7 @@ export default async function SharingsPage({
   searchParams: Promise<{ theme?: string; q?: string }>;
 }) {
   const { theme: themeId, q } = await searchParams;
-  const activeTheme = THEMES.find((t) => t.id === themeId);
+  const activeTheme = resolveBrowseTopic(themeId);
   const query = (q ?? "").trim().toLowerCase();
 
   const all = await prisma.sharing.findMany({
@@ -21,7 +21,7 @@ export default async function SharingsPage({
   });
 
   const filtered = all.filter((s) => {
-    if (activeTheme && !tagSharing(s).some((t) => t.id === activeTheme.id)) return false;
+    if (activeTheme && !topicsForSharing(s).some((t) => t.id === activeTheme.id)) return false;
     if (query && !sharingText(s).includes(query)) return false;
     return true;
   });
@@ -46,9 +46,9 @@ export default async function SharingsPage({
               : "bg-white border border-stone-300 text-stone-600 hover:border-amber-400"
           }`}
         >
-          All themes
+          All topics
         </Link>
-        {THEMES.map((t) => (
+        {BROWSE_TOPICS.map((t) => (
           <Link
             key={t.id}
             href={`/sharings?theme=${t.id}`}

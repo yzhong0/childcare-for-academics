@@ -36,26 +36,19 @@ export default function AboutPage() {
       <div className="space-y-4 text-sm leading-relaxed text-stone-700">
         <p>
           We are an operations management research team exploring operational solutions to
-          childcare policy challenges: how waitlists work (and fail), how capacity is allocated,
+          childcare related challenges: how waitlists work (and fail), how capacity is allocated,
           and which operational levers could make the system better for families and providers
-          alike.
+          alike, among many others.
         </p>
         <p>
-          Childcare shapes careers, families, and ultimately the institutions that academics
-          serve, yet the day-to-day experience of finding and keeping care is rarely documented
-          in a way that research or policy can build on. Our goal with this forum is to change
-          that: to gather first-hand accounts from academic families, understand the operational
-          frictions they face, and translate those insights into better childcare systems and
-          policies. We began with a short five-question survey within the Manufacturing and
-          Service Operations Management (MSOM) Society in summer 2026, and this forum opens that
-          conversation to the wider community. Anyone can add their own experience using the same
-          five questions, or comment on existing sharings.
-        </p>
-        <p>
-          The <Link href="/" className="text-amber-700 hover:underline">Topics</Link> page
-          summarizes the conversation in real time: every sharing is automatically tagged against
-          categories such as affordability, waitlists, availability, quality, and location, and
-          the summary updates as new sharings arrive.
+          Childcare shapes careers, families, and life, yet the day-to-day experience of finding
+          and keeping care is rarely documented in a way that research or policy can build on.
+          Our goal with this forum is to change that: to gather first-hand accounts from working
+          professionals, understand the challenges they face, and translate those insights into
+          better childcare systems and policies. We began with a short five-question survey
+          within the Manufacturing and Service Operations Management (MSOM) Society in summer
+          2026, and this forum opens that conversation to the wider community. Anyone can add
+          their own experience using the same five questions, or comment on existing sharings.
         </p>
       </div>
 
@@ -120,9 +113,10 @@ export default function AboutPage() {
         <p className="mt-2 text-sm leading-relaxed text-stone-600">
           Each sharing’s free-text answers are matched against a curated dictionary of childcare
           topics (for example, “afford,” “tuition,” and “subsidy” map to{" "}
-          <em>Affordability &amp; cost</em>). Topic percentages and representative quotes are
-          recomputed from the live database on every visit, so the summary always reflects the
-          current state of the conversation.
+          <em>Affordability &amp; cost</em>, and waitlists, waiting time, availability, and
+          access are grouped as <em>Waitlist &amp; access</em>). The word cloud and
+          representative quotes are recomputed from the live database on every visit, so the
+          summary always reflects the current state of the conversation.
         </p>
       </div>
     </div>

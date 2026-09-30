@@ -9,9 +9,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Childcare for Academics",
+  title: "Childcare",
   description:
-    "A public forum where academic families and researchers share childcare experiences, challenges, and ideas for improvement.",
+    "A public forum where working families and researchers share childcare experiences, challenges, and ideas for improvement.",
 };
 
 const NAV = [
@@ -32,8 +32,8 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col bg-stone-50 text-stone-800">
         <header className="border-b border-stone-200 bg-white">
           <div className="mx-auto max-w-5xl px-4 py-4 flex flex-wrap items-center gap-x-8 gap-y-2">
-            <Link href="/" className="text-lg font-semibold tracking-tight text-stone-900">
-              <span className="text-amber-600">Childcare</span> for Academics
+            <Link href="/" className="text-lg font-semibold tracking-tight text-amber-600">
+              Childcare
             </Link>
             <nav className="flex flex-wrap gap-x-5 gap-y-1 text-sm text-stone-600">
               {NAV.map((item) => (

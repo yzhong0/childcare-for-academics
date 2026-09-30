@@ -134,6 +134,108 @@ export function tagSharing(s: Sharing): Theme[] {
   return THEMES.filter((t) => t.keywords.some((k) => text.includes(k)));
 }
 
+/** Filters shown on Browse Sharings. Waitlists and availability are one topic. */
+export type BrowseTopic = {
+  id: string;
+  label: string;
+  description: string;
+  color: string;
+  themeIds: string[];
+};
+
+export const BROWSE_TOPICS: BrowseTopic[] = [
+  {
+    id: "affordability",
+    label: "Affordability & cost",
+    description: "Tuition levels, fees, subsidies, and the financial burden of care.",
+    color: "bg-rose-100 text-rose-800",
+    themeIds: ["affordability"],
+  },
+  {
+    id: "waitlist-access",
+    label: "Waitlist & access",
+    description: "Waitlists, waiting time, availability, and whether a family can get a spot.",
+    color: "bg-amber-100 text-amber-800",
+    themeIds: ["waiting", "availability"],
+  },
+  {
+    id: "quality",
+    label: "Quality & trust",
+    description: "Caregiver quality, staff turnover, safety, and trust in providers.",
+    color: "bg-emerald-100 text-emerald-800",
+    themeIds: ["quality"],
+  },
+  {
+    id: "location",
+    label: "Location & commute",
+    description: "Distance to providers, commutes, and drop-off/pick-up logistics.",
+    color: "bg-violet-100 text-violet-800",
+    themeIds: ["location"],
+  },
+  {
+    id: "employer",
+    label: "Employer & university support",
+    description: "On-site care, campus care, and support (or lack of it) from employers.",
+    color: "bg-indigo-100 text-indigo-800",
+    themeIds: ["employer"],
+  },
+  {
+    id: "flexibility",
+    label: "Work schedule & flexibility",
+    description: "Adjusted schedules, flexible hours, and the career impact of care gaps.",
+    color: "bg-teal-100 text-teal-800",
+    themeIds: ["flexibility"],
+  },
+  {
+    id: "informal",
+    label: "Nanny & family care",
+    description: "Nannies, grandparents, relatives, and other informal arrangements.",
+    color: "bg-orange-100 text-orange-800",
+    themeIds: ["informal"],
+  },
+  {
+    id: "policy",
+    label: "Policy & government",
+    description: "Public provision, regulation, tax treatment, and paid leave.",
+    color: "bg-slate-200 text-slate-800",
+    themeIds: ["policy"],
+  },
+  {
+    id: "backup",
+    label: "Emergency & backup care",
+    description: "Sick-day coverage, emergency backup, and last-minute gaps.",
+    color: "bg-fuchsia-100 text-fuchsia-800",
+    themeIds: ["backup"],
+  },
+];
+
+const TOPIC_ALIASES: Record<string, string> = {
+  waiting: "waitlist-access",
+  availability: "waitlist-access",
+};
+
+export function resolveBrowseTopic(id: string | undefined): BrowseTopic | undefined {
+  if (!id) return undefined;
+  return BROWSE_TOPICS.find((t) => t.id === (TOPIC_ALIASES[id] ?? id));
+}
+
+export function keywordsForTopic(topic: BrowseTopic): string[] {
+  const ids = new Set(topic.themeIds);
+  return THEMES.filter((t) => ids.has(t.id)).flatMap((t) => t.keywords);
+}
+
+export function topicsForSharing(s: Sharing): BrowseTopic[] {
+  const tagged = new Set(tagSharing(s).map((t) => t.id));
+  return BROWSE_TOPICS.filter((topic) => topic.themeIds.some((id) => tagged.has(id)));
+}
+
+export function browseTopicStats(sharings: Sharing[]): (BrowseTopic & { count: number })[] {
+  return BROWSE_TOPICS.map((topic) => ({
+    ...topic,
+    count: sharings.filter((s) => topicsForSharing(s).some((t) => t.id === topic.id)).length,
+  })).sort((a, b) => b.count - a.count);
+}
+
 export type ThemeStat = Theme & { count: number; share: number };
 
 export function themeStats(sharings: Sharing[]): ThemeStat[] {
@@ -156,7 +258,7 @@ export function themeStats(sharings: Sharing[]): ThemeStat[] {
  */
 export function themeQuotes(
   sharings: Sharing[],
-  theme: Theme,
+  theme: { keywords: string[] },
   max = 3,
   usedIds?: Set<number>,
 ): { id: number; text: string }[] {

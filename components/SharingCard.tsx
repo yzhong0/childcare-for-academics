@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Sharing } from "@prisma/client";
 import { publicDisplayName } from "@/lib/display";
-import { tagSharing } from "@/lib/themes";
+import { topicsForSharing } from "@/lib/themes";
 import { ThemeBadge } from "./ThemeBadge";
 
 function excerpt(s: Sharing): string {
@@ -16,7 +16,7 @@ export function SharingCard({
   sharing: Sharing;
   commentCount: number;
 }) {
-  const themes = tagSharing(sharing);
+  const themes = topicsForSharing(sharing);
   return (
     <Link
       href={`/sharings/${sharing.id}`}
