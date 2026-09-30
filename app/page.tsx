@@ -22,7 +22,7 @@ export default async function HomePage() {
   return (
     <div className="space-y-10">
       <section className="rounded-2xl bg-amber-50 border border-amber-100 p-6 sm:p-8">
-        <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight text-stone-900">
+        <h1 className="text-xl sm:text-2xl font-semibold tracking-tight text-stone-900">
           What is it really like to find childcare for working parents?
         </h1>
         <p className="mt-4 text-justify leading-relaxed text-stone-700">
